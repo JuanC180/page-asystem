@@ -1,0 +1,177 @@
+<div class="col-md-3 d-flex justify-content-center">
+                                <span class="numberCircle">
+                                    <span> <i class="fa fa-laptop" aria-hidden="true"></i></span>
+                                </span>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center">
+                                <span class="numberCircle">
+                                    <span> <i class="fa fa-database" aria-hidden="true"></i></span>
+                                </span>
+                            </div>
+
+                            <div class="col-md-3 d-flex justify-content-center">   
+                                <span class="numberCircle">
+                                    <span> <i class="fa fa-cloud" aria-hidden="true"></i></span>
+                                </span>
+                            </div>
+
+                            <div>
+                                <span class="numberCircle">
+                                    <span> <i class="fa fa-comments" aria-hidden="true"></i></span>
+                                </span> 
+                            </div>
+
+                            <div>   
+                                <span class="numberCircle">
+                                    <span> <i class="fa fa-server" aria-hidden="true"></i></span>
+                                </span>
+                            </div>
+
+                            <div>
+                                <span class="numberCircle">
+                                    <span> <i class="fa fa-sitemap" aria-hidden="true"></i></span>
+                                </span>
+                            </div>
+
+                            <div>
+                                <span class="numberCircle">
+                                    <span> <i class="fa fa-hdd-o" aria-hidden="true"></i></span>
+                                </span>
+                            </div>
+
+
+
+
+                            ///////////////////////////////////////////////////////////////////
+
+
+                            circulos
+
+
+       
+
+.numberCircle {
+    display:inline-block;
+    line-height:0px;
+
+    /*al quitar estas dos propiedades que automatico el tamaño*/
+    width: 120px;
+    height: 120px;
+
+    border-radius:50%;
+    border:3px solid;
+    text-align: center;
+    background: white;
+
+    font-size:42px;
+}
+                            
+.numberCircle span {
+    display:inline-block;
+    
+    padding-top:50%;
+    padding-bottom:50%;
+    
+    margin-left:8px;
+    margin-right:8px;
+}
+
+.numberCircle span i{
+    margin-top: -50%;
+}
+
+.numberCircle:hover {
+    color: #fff;
+    background: #242D37;
+
+   
+}
+
+.texto{
+    color: #FFD88C;
+}
+
+.texto:hover{
+    color: #5CACFF;
+}
+
+.texto2{
+    color: #fff;
+}
+////////////////////////////////////////////////////////////////
+
+
+a,
+area,
+button,
+[role="button"],
+input,
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation; }
+
+      ////////////////////////////////////////////////////////////////
+
+
+      //////////////hover par dos elemntos///////////////////
+
+      <!DOCTYPE html>
+<html>
+<head>
+<style>
+.uno:hover ~ .dos{
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<a class="uno" href="https://www.w3schools.com">w3schools.com</a>
+<a class="dos" href="https://www.wikipedia.org">wikipedia.org</a>
+
+<p><b>Note:</b> The :hover selector style links on mouse-over.</p>
+
+</body>
+</html>
+
+/////////////////HOVER A VERIOS ELEMENTOS //////////////////////////
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div.algo:hover p {
+        color: red;
+    }
+     
+    div.algo:hover strong {
+      color: blue;
+    }
+     
+    div.algo:hover ~ div.otracosa {
+      color: brown;
+      background: #ddd;
+    }
+     
+    div.algo:hover + div.otracosa {
+      color: gold;
+    }
+    </style>
+</head>
+<body>
+    <div class="algo">
+      <p>Hola</p>
+      <strong>¿Qué tal?</strong>
+    </div>
+
+    <div class="otracosa">Adios</div>
+    <div class="otracosa">Adios</div>
+    <div class="otracosa">Adios</div>
+    <div class="otracosa">Adios</div>
+
+</body>
+</html>

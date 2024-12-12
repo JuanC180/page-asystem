@@ -1,0 +1,36 @@
+@font-face{
+	font-family: "Fjalla One";
+	src: url("../fonts/FjallaOne-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Times Sans Serif";
+	src: url("../fonts/TIMESS__.ttf");
+}
+
+
+.tituloPrincipal{
+	font-family: "Fjalla One";
+	font-size: 50px;
+	text-align: center;
+	/*text-shadow: 5px 5px 5px #0066E9 ;*/
+	
+}
+
+.tituloSegundario{
+	font-family: "Fjalla One";
+	font-size: 30px;
+	text-align: center;
+	color: #ddd;
+	margin-bottom: 50px;
+
+	/*text-shadow: 5px 5px 5px #0066E9 ;*/
+	
+}
+
+/*@import url("https://fonts.googleapis.com/css?family=Pattaya");*/
+/*.fuenteImportante{
+	font-family: "Times Sans Serif";
+	font-size: 70px;
+	text-align: center;
+}*/
